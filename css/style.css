@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.top-bar {
+  height: 50px;
+  line-height: 50px;
+}
+.top-bar a {
+  color: white
+}
+.top-bar a:hover {
+  color: #FFC113;
+}
+.dropdown-menu .dropdown-item {
+  padding: 10px;
+  border-radius: 20px;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #FFC113;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 10px;
+  border-radius: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  background-color: #FFC113;
+}
+main {
+  min-height: 500px;
+}
+#service a {
+  text-decoration: none;
+}
+footer {
+  min-height: 200px;
+}
+footer .navbar-nav .nav-item .nav-link:hover {
+  color: #FFC113;
+}
+.gach-chan {
+  border-bottom: 2px solid #FFC600;
+}
+#why {
+  min-height: 370px;
+  width: 100%;
+  background-image: url("../images/why.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.clien {
+  width: 100%;
+  position: relative;
+}
+.truoc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 6px;
+}
+.sau {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.50);
+  padding: 6px;
+}
